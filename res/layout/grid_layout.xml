@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2" >
+
+    <TextView
+        android:id="@+id/textViewMessageLeft"
+        android:layout_column="0"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="@string/message_left" />
+
+    <TextView
+        android:id="@+id/textViewMessageRight"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="1"
+        android:text="@string/message_right" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:text="@string/cancel" />
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:text="@string/ok" />
+
+    <ListView
+        android:id="@+id/listViewPodGrupe"
+        android:layout_width="274dp"
+        android:layout_height="624dp"
+        android:layout_column="1"
+        android:layout_gravity="center|center"
+        android:layout_row="3" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/listViewNarocila"
+        android:layout_width="295dp"
+        android:layout_height="621dp"
+        android:layout_column="0"
+        android:layout_gravity="center|center"
+        android:layout_row="3" >
+    </ListView>
+
+    <Spinner
+        android:id="@+id/spinnerGrupe"
+        android:layout_width="126dp"
+        android:layout_column="1"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_row="2" />
+
+    <Spinner
+        android:id="@+id/spinnerMize"
+        android:layout_width="160dp"
+        android:layout_column="0"
+        android:layout_gravity="center|top"
+        android:layout_row="2" />
+
+</GridLayout>

@@ -1,0 +1,36 @@
+CREATE TABLE PROD_LIST(
+      PKID int IDENTITY(1,1) NOT NULL,
+      ID int NOT NULL,
+      CODE varchar(20) NULL,
+      NAME varchar(50) NOT NULL,
+      LINK varchar(30) NOT NULL,
+      PRICE money NULL,
+      EAN varchar(30) NULL,
+      PICT image NULL,
+      GRUPA int NULL 
+
+ 
+
+CREATE TABLE GRUPA(
+      PKID int IDENTITY(1,1) NOT NULL,
+      ID int NOT NULL,
+      NAME varchar(50) NOT NULL 
+
+ 
+
+CREATE TABLE ORD_LST(
+      PKID int IDENTITY(1,1) NOT NULL,
+      PL_ID int NOT NULL,
+      ORD_ID int NOT NULL,
+      ORD_TIME datetime NOT NULL,
+      SER_TIME datetime NULL
+
+
+
+CREATE TABLE ORDERS(
+      PKID int IDENTITY(1,1) NOT NULL,
+      TAB_ID int NOT NULL,
+      WA_ID int NOT NULL,
+      ST_TIME datetime NOT NULL,
+      END_TIME date NOT NULL
+

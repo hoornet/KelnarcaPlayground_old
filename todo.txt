@@ -1,0 +1,8 @@
+
+
+1) Ustvari class za kreiranje 3 tabel
+2) class za insert sample recordov
+3) layout za prikaz vseh SKUPIN
+4) layout za prikaz posamezne skupine
+5) class z id, vrednostjo (prikazani text)
+6) povezava med toèko 5 in layout-om   

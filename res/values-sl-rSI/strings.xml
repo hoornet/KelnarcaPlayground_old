@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="action_settings">Nastavitve</string>
+    <string name="drugo">Drugo</string>
+    <string name="groups">SKupine</string>
+    <string name="gumb">Brez oznake</string>
+    <string name="hello_world">Pozdrav svet!</string>
+    <string name="hrana">Hrana</string>
+    <string name="large_text">Velik Text</string>
+    <string name="menuPijac">Menu pijač</string>
+    <string name="pijaca">Pijača</string>
+    <string name="pivo">Pivo</string>
+    <string name="pivoSvetlo">Svetlo pivo</string>
+    <string name="saldo">Saldo</string>
+    <string name="vino">Vino</string>
+
+</resources>

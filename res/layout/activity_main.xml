@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+ 
+    <Button
+        android:id="@+id/buttonGroups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickGroups"
+        android:text="@string/groups" />
+    
+    <Button
+        android:id="@+id/buttonPijaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPijaca"
+        android:text="@string/pijaca" />
+
+    <Button
+        android:id="@+id/buttonHrana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickHrana"
+        android:text="@string/hrana" />
+
+    <Button
+        android:id="@+id/buttonDrugo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:onClick="onClickDrugo"
+        android:text="@string/drugo" />
+
+</LinearLayout>

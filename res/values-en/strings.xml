@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Kelnarca2</string>
+    <string name="drugo">Others</string>
+    <string name="groups">Groups</string>
+    <string name="gumb">Without tag</string>
+    <string name="hello_world">Hello world</string>
+    <string name="hrana">Food</string>
+    <string name="large_text">Large text</string>
+    <string name="menuPijac">Drink menu</string>
+    <string name="pijaca">Drinks</string>
+    <string name="pivo">Beer</string>
+    <string name="pivoSvetlo">Light beer</string>
+    <string name="saldo">Total</string>
+    <string name="vino">Vine</string>
+    <string name="vinoBelo">White vine</string>
+
+</resources>

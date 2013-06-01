@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kelnarca2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="vino">Vino</string>
+    <string name="saldo">Saldo</string>
+    <string name="pivo">Pivo</string>
+    <string name="vinoBelo">Belo vino</string>
+    <string name="pivoSvetlo">Svetlo pivo</string>
+    <string name="gumb">brez ozake</string>
+    <string name="menuPijac">Menu pijač</string>
+    <string name="title_activity_grid_favourites">GridFavouritesActivity</string>
+    <string name="large_text">Large Text</string>
+    <string name="hrana">Hrana</string>
+    <string name="pijaca">Pijača</string>
+    <string name="drugo">Drugo</string>
+    <string name="title_activity_drink_list">DrinkListActivity</string>
+    <string name="groups">Skupine</string>
+    <string name="title_activity_groups">GroupsActivity</string>
+    <string name="title_activity_multy">MultyActivity</string>
+    <string name="cancel">Prekliči</string>
+    <string name="ok">OK</string>
+    <string name="title_activity_grid">GridActivity</string>
+    <string name="message_left">Levo sporočilo</string>
+    <string name="message_right">Desno sporočilo</string>
+
+</resources>
