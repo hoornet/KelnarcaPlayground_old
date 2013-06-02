@@ -33,7 +33,7 @@
         android:text="@string/ok" />
 
     <ListView
-        android:id="@+id/listViewPodGrupe"
+        android:id="@+id/listViewProdList"
         android:layout_width="274dp"
         android:layout_height="624dp"
         android:layout_column="1"

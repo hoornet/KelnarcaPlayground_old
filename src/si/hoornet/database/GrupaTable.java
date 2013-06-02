@@ -1,5 +1,7 @@
 package si.hoornet.database;
 
+
+
 /*
  * CREATE TABLE GRUPA(
       PKID int IDENTITY(1,1) NOT NULL,
@@ -20,3 +22,5 @@ public class GrupaTable {
 
 
 }
+
+

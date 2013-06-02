@@ -92,15 +92,31 @@ public class SchemaHelper extends SQLiteOpenHelper {
     public Cursor getProductsForGroup(int groupId) {
         SQLiteDatabase sd = getWritableDatabase();
         // WE ONLY NEED TO RETURN STUDENT IDS
-        String[] cols = new String[] { ProdListTable.ID };
-        String[] selectionArgs = new String[] {
-        String.valueOf(groupId) };
+        String[] cols = new String[] { ProdListTable.ID, ProdListTable.GRUPA_ID, ProdListTable.NAME };
+        String[] selectionArgs = new String[] { String.valueOf(groupId) };
         // QUERY CLASS MAP FOR STUDENTS IN COURSE
         Cursor c = sd.query(ProdListTable.TABLE_NAME, cols,  
         		ProdListTable.GRUPA_ID + "= ?", selectionArgs, null, 
         null, null);
         return c;
     }
+    
+    
+    
+    // GET ALL Groups
+    public Cursor getGroups() {
+        SQLiteDatabase sd = getWritableDatabase();
+        // WE ONLY NEED TO RETURN STUDENT IDS
+        String[] cols = new String[] { GrupaTable.ID, GrupaTable.NAME };
+        //String[] selectionArgs = new String[] { String.valueOf(groupId) };
+        // QUERY CLASS MAP FOR STUDENTS IN COURSE
+        Cursor c = sd.query(GrupaTable.TABLE_NAME, cols,  
+        		null, null, null, 
+        null, null);
+        return c;
+    }
+    
+    
     
     
     /*
